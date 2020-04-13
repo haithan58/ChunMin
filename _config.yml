@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Chún Mìn
+description: "Chún Mìn là nơi để lưu giữ, chia sẻ và lan tỏa những điều xinh xắn cũng những thứ tốt đẹp về công việc cũng như cuộc sống của chúng tôi."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "https://chunminstd.page"
 
 # Build settings
 markdown: kramdown
@@ -35,33 +35,33 @@ collections:
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: dribbble
-    url:
+    url: https://dribbble.com/haithan
   - title: facebook
-    url:
+    url: https://www.facebook.com/chunminstd
   - title: twitter
     url:
   - title: instagram
-    url:
+    url: https://www.instagram.com/chunminstudio/
   - title: tumblr
     url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Tan Binh Dis.,
+    - Ho Chi Minh City,
+    - Viet Nam.
+email: chunmin.studio@gmail.com
+tel: +84 984 416 538
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Hải Thần
+    position: Co-Fouder
+    text: Im gonna be a father soon.
     img: team01.jpg
     social:
       - title: envelope #use for email address
