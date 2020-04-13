@@ -10,34 +10,34 @@ permalink: /
             <div class="col-md-4">
                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                 <span class="sr-only">An image of a love-heart</span>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <h4>Made with a love-heart</h4>
+                <p>Chún Mìn là một chốn yêu thương của chúng tôi, và các sản phẩm của Chún Mìn cũng vậy.</p>
+                <p><br/><a href="#" class="btn btn-theme">Xem thêm</a></p>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-flask" aria-hidden="true"></i>
                 <span class="sr-only">An image of a laboratory flask</span>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <h4>Chất lượng hơn số lượng</h4>
+                <p>Chún Mìn vận dụng những kiến thức của bản thân và tận dụng những tài nguyên sẵn có để tạo nên những sản phẩm chất lượng nhất.</p>
+                <p><br/><a href="#" class="btn btn-theme">Xem thêm</a></p>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-trophy" aria-hidden="true"></i>
                 <span class="sr-only">An image of a trophy</span>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <h4>Hiểu thấu</h4>
+                <p>Dù là những thứ cũ kĩ hay những điều mới mẻ, bản thân chúng đều mang trong mình những ý niệm. Hiểu và lan tỏa những ý niệm đó là một trong những điều Chún Mìn mong muốn thực hiện.</p>
+                <p><br/><a href="#" class="btn btn-theme">Xem thêm</a></p>
             </div>
         </div>
     </div><!--/container -->
 </div><!--/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+{% include portfolio.html title="SẢN PHẨM GẦN ĐÂY" limit=12 %}
 
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
+            <h4>Đôi lời nhắn gửi.</h4>
             <p>{{ site.about }}</p>
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
@@ -51,7 +51,7 @@ permalink: /
         </div>
 
         <div class="col-lg-3">
-            <h4>Latest Posts</h4>
+            <h4>Bài đăng gần đây</h4>
             <div class="hline"></div>
             {% for post in site.posts limit:5 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
